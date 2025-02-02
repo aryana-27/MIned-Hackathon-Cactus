@@ -42,8 +42,6 @@ These resources make it easier for students, researchers, and academics to grasp
 
 3. Generate multimedia content:
    - Run the script to generate the video, PPT, or podcast.
-## refer to demo videos of codes , pipeline , video generated , podcast - 
-https://www.canva.com/design/DAGdxxqDHrw/dbKisZDdvUK1KSdmeVuNcw/edit?utm_content=DAGdxxqDHrw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Contributing
 
