@@ -1,6 +1,6 @@
 # Academic Research Paper Simplification
 
-This project was developed for the Mined Hackathon, conducted by Nirma University, Ahmedabad, in collaboration with Cactus. The primary goal of the project is to make academic research papers more accessible and easier to understand. We achieve this by generating multimedia content such as videos, PowerPoint presentations, and podcasts that simplify complex research topics for a wider audience.
+This project was developed for the Mined Hackathon, conducted by Nirma University, Ahmedabad, in collaboration with Cactus. The primary goal of the project is to make academic research papers more accessible and easier to understand. We achieve this by generating multimedia content such as videos, PowerPoint presentations, and podcasts that simplify complex research topics for a wider audience.(disclaimer: it still requires some work to be done, its just a basic implementation of how project might look like after the pipeline is sucessfully implemented.)
 
 ## Project Overview
 
@@ -38,7 +38,7 @@ These resources make it easier for students, researchers, and academics to grasp
    ```
 
 2. Input your academic research paper:
-   - Upload the paper in a compatible format (PDF/Word).
+   - Upload the paper in a compatible format (PDF).
 
 3. Generate multimedia content:
    - Run the script to generate the video, PPT, or podcast.
