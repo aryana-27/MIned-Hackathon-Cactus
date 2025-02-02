@@ -18,12 +18,12 @@ st.set_page_config(page_title="Research Paper Pipeline", layout="wide")
 # API KEY SETUP
 # -------------------------
 # OpenAI API Key
-openai.api_key = "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"
+openai.api_key = "YOUR OPENAI API KEY"
 if not openai.api_key:
     st.error("Missing OpenAI API Key! Please set the OPENAI_API_KEY environment variable.")
 
 # Gemini API Key
-os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY", "AIzaSyAKQbVZnnVbWu9taJoS79IL0OX6jQXr8qA")  # Replace with your key if needed
+os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY", "YOUR GEMINI API KEY")  # Replace with your key if needed
 GEN_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEN_API_KEY:
     st.error("Missing Gemini API Key! Please set the GEMINI_API_KEY environment variable.")
@@ -266,7 +266,7 @@ def create_full_video(parsed_scenes):
     Generate a final vertical video from parsed storyboard scenes.
     This function fetches a short video clip from Pexels based on visual cues.
     """
-    PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "32TwCMSUffppd6DdqjWcYSjGXY8Y2E4mTle88MAe5UEcrHxl4eASZxaO")  # Set your Pexels API key as env var
+    PEXELS_API_KEY = os.getenv("PEXELS_API_KEY", "YOUR PEXELS API KEY")  # Set your Pexels API key as env var
     def fetch_pexels_video(query):
         url = "https://api.pexels.com/videos/search"
         headers = {"Authorization": PEXELS_API_KEY}
